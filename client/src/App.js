@@ -1,10 +1,12 @@
 import "./App.css";
-import React from "react";
+import React, {useState} from "react";
+import LoginForm from "./components/LoginForm";
+import RegisterForm from "./components/RegisterForm";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Learn React</header>
+      <RegisterForm />
     </div>
   );
 }
