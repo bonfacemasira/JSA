@@ -8,6 +8,18 @@
   background-image: linear-gradient( darkblue, darkblue 48%, darkblue);
 }
 
+h1{
+  color: white;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+a{
+  color: yellow;
+}
 .auth-form-container, .login-form, .register-form {
   display: flex;
   flex-direction: column;
@@ -21,23 +33,48 @@
     margin: 0.5rem;
   }
 }
-
 input {
   margin: 0.5rem 0;
   padding: 1rem;
   border: none;
   border-radius: 10px;
+
 }
-button {
+select {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+
+}
+.loginButton {
   font-family: 'Poppins';
   color: black !important;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bolder;
   text-decoration: none;
   background: yellow;
-  padding: 20px;
-  border-radius: 50px;
+  padding: 1rem;
+  border-radius: 10px;
   display: inline-block;
   border: none;
   transition: all 0.4s ease 0s;
 }
+
+
+.registerButton {
+  font-family: 'Poppins';
+  color: black !important;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-decoration: none;
+  background: yellow;
+  padding: 1rem;
+  border-radius: 10px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+
+
