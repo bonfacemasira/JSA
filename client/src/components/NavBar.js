@@ -8,8 +8,8 @@ function NavBar() {
     <div className="wrapper">
       <h1 className="logo">JS</h1>
       <nav className="Nav">
-        <button className="registerButton" as={Link} to="/login" >Login</button>
-        <button className="registerButton" as={Link} to="/register">Sign Up</button>
+        <Link to="/login" className="registerButton">Login</Link>
+        <Link to="/register" className="registerButton">Sign Up</Link>
       </nav>
     </div>
   );
